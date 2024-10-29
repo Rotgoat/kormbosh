@@ -1,0 +1,261 @@
+/*
+        font-size: 18px;
+        line-height: 24px;
+
+        @include xlg {
+            font-size: 1.25vw;
+            line-height: 1.667vw;
+        }
+
+        @include lg {
+            font-size: 1.758vw;
+            line-height: 2.344vw;
+        }
+
+        @include sm {
+            font-size: 2.344vw;
+            line-height: 3.125vw;
+        }
+
+        @include smm {
+            font-size: 3.344vw;
+            line-height: 4.6vw;
+        }
+
+        @include xs {
+            font-size: 4.4vw;
+            line-height: 6vw;
+        }
+
+
+
+ font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 1vw;
+
+        @include xlg {
+            font-size: 1.65vw;
+            line-height: 2.133vw;
+        }
+
+        @include lg {
+            font-size: 2.36vw;
+            line-height: 3vw;
+        }
+
+        @include sm {
+            font-size: 3.13vw;
+            line-height: 4.6vw;
+        }
+
+        @include smm {
+            font-size: 5.25vw;
+            line-height: 8vw;
+        }
+
+        @include xs {
+            font-size: 6.64vw;
+            line-height: 9vw;
+        }
+fz16
+   @include xlg {
+    line-height: 1.5vw;
+    font-size: 1.111vw;
+  }
+
+  @include lg {
+    font-size: 1.562vw;
+    line-height: 2.15vw;
+  }
+
+  @include sm {
+    line-height: 2.6vw;
+    font-size: 2.07vw;
+  }
+
+  @include smm {
+    line-height: 4.73vw;
+    font-size: 3.45vw;
+  }
+
+  @include xs {
+    line-height: 6vw;
+    font-size: 4.5vw;
+  }
+*/
+
+/*
+fz14
+        font-size: 14px;
+                line-height: 20px;
+
+                @include xlg {
+                    font-size: 1vw;
+                    line-height: 1.3vw;
+                }
+
+                @include lg {
+                    font-size: 1.38vw;
+                    line-height: 1.87vw;
+                }
+
+                @include sm {
+                    font-size: 1.8vw;
+                    line-height: 2.5vw;
+                }
+
+                @include smm {
+                    font-size: 3vw;
+                    line-height: 4.4vw;
+                }
+
+                @include xs {
+                    font-size: 3.85vw;
+                    line-height: 5vw;
+                }
+
+
+*/
+
+/*
+fz12
+              font-size: 12px;
+        line-height: 18px;
+
+        @include xlg {
+            font-size: 0.86vw;
+            line-height: 1.3vw;
+        }
+
+        @include lg {
+            font-size: 1.18vw;
+            line-height: 2vw;
+        }
+
+        @include sm {
+            font-size: 1.56vw;
+            line-height: 2.5vw;
+        }
+
+        @include smm {
+            font-size: 2.63vw;
+            line-height: 4.1vw;
+        }
+
+        @include xs {
+            font-size: 3.37vw;
+            line-height: 4.5vw;
+        }
+
+*/
+
+.block-404 {
+  margin: 64px 0;
+}
+
+.block-404 .container .block-404__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.block-404 .container .block-404__wrapper .image__wrapper {
+  height: 172px;
+}
+
+.block-404 .container .block-404__wrapper .image__wrapper img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.block-404 .container .block-404__wrapper .text__wrapper {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  max-width: 644px;
+}
+
+.block-404 .container .block-404__wrapper .text__wrapper .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #16151C;
+}
+
+.block-404 .container .block-404__wrapper .text__wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #80808A;
+}
+
+.block-404 .container .block-404__wrapper .button_green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #00A743;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.block-404 .container .block-404__wrapper .button_green:hover {
+  background-color: #008736;
+}
+
+@media screen and (max-width: 1440.02px) {
+  .block-404 {
+    margin: 4.444vw 0;
+  }
+}
+
+@media screen and (max-width: 1024.02px) {
+  .block-404 {
+    margin: 4.688vw 0;
+  }
+}
+
+@media screen and (max-width: 768.02px) {
+  .block-404 {
+    margin: 5.208vw 0;
+  }
+}
+
+@media screen and (max-width: 360.02px) {
+  .block-404 {
+    margin: 6.667vw 0;
+  }
+
+  .block-404 .container .block-404__wrapper .image__wrapper {
+    height: 132px;
+  }
+
+  .block-404 .container .block-404__wrapper .text__wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
