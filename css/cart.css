@@ -979,6 +979,12 @@ fz12
 
   .sum-block__total {
     margin-top: 1.5vw;
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+
+  .sum-block__total div:first-child {
+    font-size: 0.8em;
   }
 
   .sum-block__btn {
@@ -1081,13 +1087,18 @@ fz12
     gap: 3vw;
   }
 
+  .table__quantity .quantity {
+    width: 21.5vw;
+    height: 7.1vw;
+  }
+
   .table__badge {
     font-size: 2vw;
     line-height: 3vw;
   }
 
   .table__name {
-    font-size: 3vw;
+    font-size: 3.1vw;
     line-height: 4.4vw;
   }
 
@@ -1112,7 +1123,7 @@ fz12
   }
 
   .sum-block {
-    font-size: 3.49vw;
+    font-size: 3.7vw;
     line-height: 4.125vw;
   }
 
@@ -1131,12 +1142,35 @@ fz12
     margin-top: 3vw;
   }
 
+  .sum-block__sum > div {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+
   .sum-block__sale {
     margin-top: 3vw;
   }
 
+  .sum-block__sale > div {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+
   .sum-block__total {
     margin-top: 3vw;
+    font-size: 1.4em;
+  }
+
+  .sum-block__total > div {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+
+  .sum-block__total div:first-child {
+    font-size: 0.76em;
   }
 
   .free-delivery {
@@ -1214,6 +1248,16 @@ fz12
     padding-right: 4.167vw;
   }
 
+  .table__quantity .quantity {
+    width: 27.5vw;
+    height: 9.1vw;
+  }
+
+  .table__quantity .quantity .quantity__button::before,
+  .table__quantity .quantity .quantity__button::after {
+    width: 11px;
+  }
+
   .table__badge {
     font-size: 2.5vw;
     line-height: 3.6vw;
@@ -1245,7 +1289,7 @@ fz12
   }
 
   .sum-block {
-    font-size: 4.44vw;
+    font-size: 4.64vw;
     line-height: 7vw;
   }
 
@@ -1269,8 +1313,12 @@ fz12
   }
 
   .sum-block__total {
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-top: 2vw;
+  }
+
+  .sum-block__total div:first-child {
+    font-size: 0.9em;
   }
 
   .free-delivery {
